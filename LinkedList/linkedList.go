@@ -32,3 +32,5 @@ func PrintLinkedList(head *Node) {
 	}
 	fmt.Print("nil\n")
 }
+
+//use

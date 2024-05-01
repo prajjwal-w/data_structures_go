@@ -33,3 +33,5 @@ func Display(head *Node) {
 	fmt.Print("nil")
 	fmt.Println()
 }
+
+//Use it

@@ -38,3 +38,5 @@ func (s *Stack) PrintStack() {
 		fmt.Print(value, " ")
 	}
 }
+
+//use
