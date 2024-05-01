@@ -3,11 +3,11 @@ package linkedList
 import "fmt"
 
 type Node struct {
-	Data int
+	Data interface{}
 	Next *Node
 }
 
-func CreateLinkedList(data []int) *Node {
+func CreateLinkedList(data []interface{}) *Node {
 	var head *Node
 	for _, value := range data {
 		newNode := &Node{Data: value}
